@@ -12,12 +12,13 @@
 
 `makes working env fast and stable`
 
-|          things which makes it better                              | docker|
-|--------------------------------------------------------------------|---|
-| fast                                                               | ✔ |
-| powerfull                                                          | ✔ |
-| easy to use                                                        | ✔ |
-| stable (gets frequently updated)with all latest and powerfull tools| ✔ | 
+|          things which makes it better                               | docker|
+|---------------------------------------------------------------------|---|
+| fast                                                                | ✔ |
+| powerfull                                                           | ✔ |
+| easy to use                                                         | ✔ |
+| stable (gets frequently updated)with all latest and powerfull tools)| ✔ |
+| commad line                                                         | ✔ |
 
 ## [download ubuntu.pentest.tar](https://mega.nz/file/nuJXRCwS#lSLq4GFPM2GC6rp-OyMbCsamAhE3hQgguA15ykpAN3g).
 
