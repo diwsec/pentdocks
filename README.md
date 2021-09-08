@@ -15,7 +15,7 @@
 |          things which makes it better                               | docker|
 |---------------------------------------------------------------------|---|
 | fast                                                                | ✔ |
-| powerfull                                                           | ✔ |
+| powerful                                                            | ✔ |
 | easy to use                                                         | ✔ |
 | stable (gets frequently updated)with all latest and powerfull tools)| ✔ |
 | commad line                                                         | ✔ |
