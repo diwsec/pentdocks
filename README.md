@@ -33,7 +33,7 @@ sudo docker load < ubuntu.pentest.tar
 ```
 sudo docker run -it ubuntu:pentest /bin/bash
 ```
-### manual installation
+# manual installation
 
 ### A bash script for installing pentest tools for docker
 
