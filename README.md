@@ -63,4 +63,4 @@ If it displays:
 
 `/bin/bash` – means you have Bash
 
-### Now run the bash script to install the tools
+## Now run the bash script to install the tools
