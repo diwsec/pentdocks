@@ -8,7 +8,7 @@
 </h1>
 
 
-## why to use it
+## why should you use
 
 `makes working env fast and stable`
 
