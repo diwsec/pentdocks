@@ -19,7 +19,7 @@
 | easy to use                                                        | ✔ |
 | stable (gets frequently updated)with all latest and powerfull tools| ✔ | 
 
-# [Forced Browsing](https://mega.nz/file/nuJXRCwS#lSLq4GFPM2GC6rp-OyMbCsamAhE3hQgguA15ykpAN3g).
+# [download docker image](https://mega.nz/file/nuJXRCwS#lSLq4GFPM2GC6rp-OyMbCsamAhE3hQgguA15ykpAN3g).
 
 # installation
 ```
