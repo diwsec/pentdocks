@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/epi052/feroxbuster"><img src="https://i.pinimg.com/550x/6a/c0/0a/6ac00ab8f4018bb2734d000072567b0f.jpg" alt="feroxbuster"></a>
+  <a href="https://github.com/dockbox"><img src="https://i.pinimg.com/550x/6a/c0/0a/6ac00ab8f4018bb2734d000072567b0f.jpg" alt="dockbox"></a>
   <br>
 </h1>
 
