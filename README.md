@@ -19,7 +19,11 @@
 | easy to use                                                         | ✔ |
 | stable (gets frequently updated)with all latest and powerfull tools)| ✔ |
 
-# manual installation
+
+> install-using-the-convenience-script to make the installation process quick!
+[download and install docker from here](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script).
+
+# installation
 
 ### A bash script for installing pentest tools for docker
 
