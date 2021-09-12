@@ -45,7 +45,7 @@ export GOPATH=/home/$USER/go
 export PATH=${PATH}:$GOROOT/bin:/home/$USER/go/bin
 ```
 
-These changes will take effect after a reboot. Instead of restarting your computer, run
+These changes will take effect after a reboot. Instead of restarting, run
 
 `source ~/.bashrc`
 
