@@ -7,35 +7,46 @@
   <br>
 </h1>
 
-
-## why should you use
-
-`makes working env fast and stable`
-
-|          things which makes it better                               | docker|
-|---------------------------------------------------------------------|---|
-| fast                                                                | ✔ |
-| powerful                                                            | ✔ |
-| easy to use                                                         | ✔ |
-| stable (gets frequently updated)with all latest and powerfull tools)| ✔ |
+### why should you use it
 
 
-> install-using-the-convenience-script to make the installation process quick!
+|                  things which makes it better              |   |
+|------------------------------------------------------------|---|
+| fast                                                       | ✔ |
+| powerful                                                   | ✔ |
+| easy to use                                                | ✔ |
+| stable                                                     | ✔ |
+
 [download and install docker from here](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script).
+> install-using-the-convenience-script to make the installation process simple.
 
 # installation
 
-### A bash script for installing pentest tools for docker
+```
+sudo docker pull ubuntu
+```
 
-To install, you need some requirements
+> run the image
 
-`sudo apt install git`
+```
+sudo docker run -it --name pentest ubuntu:latest /bin/bash
+```
 
-`sudo apt install golang`
+To run the script in docker, you need some requirements
+
+```
+sudo apt-get install git
+```
+
+[git clone my repo](https://github.com/diwusec/pentdocks.git).
+
+```
+sudo apt-get install golang
+```
 
 Now open .zshrc for exporting the following environment variables
  
-type this in terminal
+type this in terminal(use any editors)
 
 `vim ~/.bashrc`
 ```
@@ -57,4 +68,12 @@ If it displays:
 
 `/bin/bash` – means you have Bash
 
-### Now run the bash script to install the tools
+> now run `bash docker.sh` for installing the tools
+
+> after the installation exit from the docker
+
+> to start the docker again run the container not the image
+
+```
+sudo docker exec -it pentest /bin/bash
+```
