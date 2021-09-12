@@ -19,18 +19,6 @@
 | easy to use                                                         | ✔ |
 | stable (gets frequently updated)with all latest and powerfull tools)| ✔ |
 
-
-
-# download docker image
-
-## [ubuntu.pentest.tar](https://mega.nz/file/nuJXRCwS#lSLq4GFPM2GC6rp-OyMbCsamAhE3hQgguA15ykpAN3g).
-
-# installation
-```
-sudo docker load < ubuntu.pentest.tar
-```
-```
-sudo docker run -it ubuntu:pentest /bin/bash
 ```
 # manual installation
 
