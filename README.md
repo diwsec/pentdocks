@@ -63,7 +63,7 @@ If it displays:
 
 `/bin/bash` – means you have Bash
 
-> now run `bash docker.sh` for installing the tools
+> now go to the pentdocks directory to run `bash docker.sh` for installing the tools
 
 > after the installation exit from the docker
 
