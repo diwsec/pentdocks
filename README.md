@@ -9,40 +9,35 @@
 
 ### why should you use it
 
+Usually people who have just one laptop face problems to do multitasking while pentesting, I myself used to install and run `VMware` in ubuntu to run other tools while pentesting for making my work faster, so i found a way to solve this using docker and i fell in love with docker, the most amazing thing i liked is that docker is just like an `OS` internally running, you can keep backups using `sudo docker save os:latest > os.tar` and many more things. just try it to love it
 
-|                  things which makes it better              |   |
-|------------------------------------------------------------|---|
-| fast                                                       | ✔ |
-| powerful                                                   | ✔ |
-| easy to use                                                | ✔ |
-| stable                                                     | ✔ |
+
+
+|                  things which makes it better              | docker  |vmware|
+|------------------------------------------------------------|---|---|
+| fast                                                       | ✔ | X |
+| powerful                                                   | ✔ | ✔ |         
+| easy to use                                                | ✔ | X |
+| stable                                                     | ✔ | ✔ |
+| light weight                                               | ✔ | X |
+| multitasking                                               | ✔ | X |
 
 [download and install docker from here](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script).
 > install-using-the-convenience-script to make the installation process simple.
 
 # installation
 
-```
-sudo docker pull ubuntu
-```
+> install ubuntu image in docker `sudo docker pull ubuntu`
 
-> run the image
-
-```
-sudo docker run -it --name pentest ubuntu:latest /bin/bash
-```
+> run the image `sudo docker run -it --name pentest ubuntu:latest /bin/bash`
 
 To run the script in docker, you need some requirements
 
-```
-sudo apt-get install git
-```
+`sudo apt-get install git`
 
-[git clone my repo](https://github.com/diwusec/pentdocks.git).
+> git clone my repo `https://github.com/diwusec/pentdocks.git`
 
-```
-sudo apt-get install golang
-```
+> sudo apt-get install golang
 
 Now open .zshrc for exporting the following environment variables
  
