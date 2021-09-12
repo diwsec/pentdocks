@@ -3,7 +3,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://github.com/diwusec/pentdocks"><img src="https://www.nclouds.com/blog/wp-content/uploads/2018/10/reduce_docker_image_size_by_45.jpg" alt="pentdocks"></a>
+  <a href="https://github.com/diwusec/pentdocks"><img src="https://img.wonderhowto.com/img/86/00/63617929688035/0/create-reusable-burner-os-with-docker-part-2-customizing-our-hacking-container.1280x600.jpg" alt="pentdocks"></a>
   <br>
 </h1>
 
