@@ -19,7 +19,6 @@
 | easy to use                                                         | ✔ |
 | stable (gets frequently updated)with all latest and powerfull tools)| ✔ |
 
-```
 # manual installation
 
 ### A bash script for installing pentest tools for docker
