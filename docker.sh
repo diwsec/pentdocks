@@ -39,6 +39,7 @@ echo "GREAT POWER COMES WITH GREAT RESPONSIBILITY!"
  apt-get install -y nmap
  apt-get install -y parallel
  apt-get install -y net-tools
+ apt-get install -y iputils-ping
 
 echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
