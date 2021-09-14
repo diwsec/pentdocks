@@ -53,17 +53,11 @@ export GOPATH=/home/$USER/go
 export PATH=${PATH}:$GOROOT/bin:/home/$USER/go/bin
 ```
 
-These changes will take effect after a reboot. Instead of restarting, run
+These changes will take effect after a reboot. Instead of restarting, run `source ~/.bashrc`
 
-`source ~/.bashrc`
+If you are not sure which shell you have, then run the command `echo $SHELL`
 
-If you are not sure which shell you have, then run the command
-
-`echo $SHELL`
-
-If it displays: 
-
-`/bin/bash` – means you have Bash
+If it displays: `/bin/bash` – means you have Bash
 
 now go to the pentdocks directory to run `bash docker.sh` for installing the tools
 
