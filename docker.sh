@@ -169,10 +169,6 @@ echo "installing gospider"
 go install github.com/jaeles-project/gospider@latest
 echo "done"
 
-echo "installing jaeles"
-go install github.com/jaeles-project/jaeles@latest
-echo "done"
-
 echo "installing getJS"
 go install github.com/003random/getJS@latest
 echo "done"
