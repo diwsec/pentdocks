@@ -35,6 +35,7 @@ echo "GREAT POWER COMES WITH GREAT RESPONSIBILITY!"
  apt-get install -y libsvn1 libtool libxslt-dev wget libyaml-dev ncurses-dev postgresql-contrib xsel zlib1g git-core gawk libffi-dev libgdm-dev libncurses5-dev dirmngr python3-magic
  apt-get install -y gcc
  apt-get install -y tree
+ apt-get install -y apache2
  apt-get install -y vim
  apt-get install -y nmap
  apt-get install -y parallel
