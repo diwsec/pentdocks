@@ -9,7 +9,7 @@
 
 # why should you use it
 
-Usually people who have just one laptop face problems to do multitasking while pentesting, I myself used to install and run `VMware` in ubuntu to run other tools while pentesting for making my work faster, so i found a way to solve this using docker and i fell in love with docker, the most amazing thing i liked is that docker is just like an `OS` internally running, you can keep backups using `sudo docker save os:latest > os.tar` and many more things. just try it to love it
+Usually, people who have one laptop face problems when multitasking. While pentesting, I used to install and run `VMware` in ubuntu to run other tools to finish my work faster. So i found a way to slove this using docker and i fell in love with it. The most amazing thing that i'm fascinated about is that the docker is just like an `OS`, internally running. You can keep backups using `sudo docker save os:latest > os.tar` and many more. just try it, you will love it.
 
 
 
