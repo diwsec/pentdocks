@@ -27,17 +27,17 @@ Usually people who have just one laptop face problems to do multitasking while p
 
 # installation
 
-> install ubuntu image in docker `sudo docker pull ubuntu`
+install ubuntu image in docker `sudo docker pull ubuntu`
 
-> run the image `sudo docker run -it --name pentest ubuntu:latest /bin/bash`
+run the image `sudo docker run -it --name pentest ubuntu:latest /bin/bash`
 
 To run the script in docker, you need some requirements
 
 `sudo apt-get install git`
 
-> git clone my repo `https://github.com/diwusec/pentdocks.git`
+git clone my repo `https://github.com/diwusec/pentdocks.git`
 
-> sudo apt-get install golang
+`sudo apt-get install golang`
 
 Now open .zshrc for exporting the following environment variables
  
@@ -63,9 +63,9 @@ If it displays:
 
 `/bin/bash` – means you have Bash
 
-> now go to the pentdocks directory to run `bash docker.sh` for installing the tools
+now go to the pentdocks directory to run `bash docker.sh` for installing the tools
 
-> after the installation exit from the docker
+after the installation exit from the docker
 
 > to start the docker again run the container not the image
 
