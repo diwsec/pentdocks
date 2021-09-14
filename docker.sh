@@ -49,12 +49,6 @@ echo "moving ./feroxbuster to /usr/local/bin"
  mv feroxbuster /usr/local/bin
 echo "done"
 
-echo "installing metasploit"
-curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
-  chmod 755 msfinstall && \
-  ./msfinstall
-echo "done"
-
 echo "creating a tools folder in ~/"
 mkdir ~/tools
 cd ~/tools/
