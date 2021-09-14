@@ -33,11 +33,11 @@ run the image `sudo docker run -it --name pentest ubuntu:latest /bin/bash`
 
 To run the script in docker, you need some requirements
 
-`sudo apt-get install git`
+`apt-get install git`
 
 git clone my repo `https://github.com/diwusec/pentdocks.git`
 
-`sudo apt-get install golang`
+`apt-get install golang`
 
 Now open .zshrc for exporting the following environment variables
  
