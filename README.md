@@ -33,6 +33,8 @@ run the image `sudo docker run -it --name pentest ubuntu:latest /bin/bash`
 
 To run the script in docker, you need some requirements
 
+`apt-get update && apt-get dist-upgrade`
+
 `apt-get install git`
 
 git clone my repo `https://github.com/diwusec/pentdocks.git`
