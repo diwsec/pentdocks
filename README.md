@@ -27,25 +27,34 @@ Usually people who have just one laptop face problems to do multitasking while p
 
 # installation
 
-install ubuntu image in docker `sudo docker pull ubuntu`
+install ubuntu image in docker
+```
+sudo docker pull ubuntu`
+```
+run the image
 
-run the image `sudo docker run -it --name pentest ubuntu:latest /bin/bash`
-
+```
+sudo docker run -it --name pentest ubuntu:latest /bin/bash
+```
 To run the script in docker, you need some requirements
+```
+apt-get update && apt-get dist-upgrade`
+```
+```
+apt-get install git
+```
 
-`apt-get update && apt-get dist-upgrade`
+```
+apt-get install golang
+```
 
-`apt-get install git`
-
-to git clone my repo `https://github.com/diwusec/pentdocks.git`
-
-`apt-get install golang`
-
-Now open .zshrc for exporting the following environment variables
+Now open `.bashrc` for exporting the following environment variables
  
 type this in terminal(use any editors)
 
-`vim ~/.bashrc`
+```
+vim ~/.bashrc
+```
 ```
 export GOPATH=/home/$USER/go
 ```
@@ -53,13 +62,18 @@ export GOPATH=/home/$USER/go
 export PATH=${PATH}:$GOROOT/bin:/home/$USER/go/bin
 ```
 
-These changes will take effect after a reboot. Instead of restarting, run `source ~/.bashrc`
+These changes will take effect after a reboot. Instead of restarting, run 
+```
+source ~/.bashrc
+```
 
-If you are not sure which shell you have, then run the command `echo $SHELL`
-
+If you are not sure which shell you have, then run the command 
+```
+echo $SHELL
+```
 If it displays: `/bin/bash` – means you have Bash
 
-now go to the pentdocks directory to run `bash docker.sh` for installing the tools
+now clone my repo `https://github.com/diwusec/pentdocks.git` and `cd pentdocks` directory to run `bash docker.sh` for installing the tools
 
 after the installation exit from the docker
 
