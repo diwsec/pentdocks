@@ -38,14 +38,14 @@ sudo docker run -it --name pentest ubuntu:latest /bin/bash
 ```
 To run the script in docker, you need some requirements
 ```
-apt-get update && apt-get dist-upgrade
+apt-get -y update && apt-get -y dist-upgrade
 ```
 ```
-apt-get install git
+apt-get install -y git
 ```
 
 ```
-apt-get install golang
+apt-get install -y golang
 ```
 
 Now open `.bashrc` for exporting the following environment variables
