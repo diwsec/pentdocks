@@ -38,7 +38,7 @@ sudo docker run -it --name pentest ubuntu:latest /bin/bash
 ```
 To run the script in docker, you need some requirements
 ```
-apt-get -y update && apt-get -y dist-upgrade
+apt-get -y update && apt-get -y dist-upgrade && apt-get -y autoremove &&& apt-get -y autoclean
 ```
 ```
 apt-get install -y git
