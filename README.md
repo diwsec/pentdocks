@@ -29,7 +29,7 @@ Usually, people who have one laptop face problems when multitasking. While pente
 
 install ubuntu image in docker
 ```
-sudo docker pull ubuntu`
+sudo docker pull ubuntu
 ```
 run the image
 
@@ -38,7 +38,7 @@ sudo docker run -it --name pentest ubuntu:latest /bin/bash
 ```
 To run the script in docker, you need some requirements
 ```
-apt-get update && apt-get dist-upgrade`
+apt-get update && apt-get dist-upgrade
 ```
 ```
 apt-get install git
