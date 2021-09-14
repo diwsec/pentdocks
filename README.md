@@ -37,7 +37,7 @@ To run the script in docker, you need some requirements
 
 `apt-get install git`
 
-git clone my repo `https://github.com/diwusec/pentdocks.git`
+to git clone my repo `https://github.com/diwusec/pentdocks.git`
 
 `apt-get install golang`
 
