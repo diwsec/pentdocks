@@ -26,6 +26,7 @@ echo "GREAT POWER COMES WITH GREAT RESPONSIBILITY!"
  apt-get install -y libpcap-dev
  apt-get install -y htop
  apt-get install -y libldns-dev
+ apt-get install -y perl libnet-ssleay-perl openssl libauthen-pam-perl libio-pty-perl
  apt-get install -y python-setuptools
  apt-get install -y build-essential
  apt-get install -y python3-pip
