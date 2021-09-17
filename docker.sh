@@ -78,6 +78,11 @@ cd ~/tools/
 echo "make the file to run"
 echo "done"
 
+echo "installing asnlookup"
+git clone https://github.com/diwusec/Asnlookup.git
+cd ~/tools/
+echo "done"
+
 echo "installing masscan"
 git clone https://github.com/robertdavidgraham/masscan.git
 cd ~/tools/
