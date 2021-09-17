@@ -31,6 +31,7 @@ echo "GREAT POWER COMES WITH GREAT RESPONSIBILITY!"
  apt-get install -y build-essential
  apt-get install -y python3-pip
  apt-get install -y python
+ apt-get install -y dnsutils
  apt-get install -y curl
  apt-get install -y git
  apt-get install -y gpgv2 autoconf bison postgresql libaprutil1 openssl libpq-dev libreadline6-dev libreadline-dev libsqlite3-dev libssl-dev locate
