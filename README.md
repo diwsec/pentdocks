@@ -21,6 +21,7 @@ Usually, people who have one laptop face problems when multitasking. While pente
 | stable                                                     | ✔ | ✔ |
 | light weight                                               | ✔ | X |
 | multitasking                                               | ✔ | X |
+| flexible                                                   | ✔ | X |
 
 [download and install docker from here](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script).
 > install-using-the-convenience-script to make the installation process simple.
