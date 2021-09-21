@@ -71,11 +71,6 @@ git clone https://github.com/m4ll0k/SecretFinder.git
 cd ~/tools/
 echo "done"
 
-echo "installing wafw00f"
-git clone https://github.com/EnableSecurity/wafw00f.git
-cd ~/tools/
-echo "done"
-
 echo "installing amass"
 git clone https://github.com/OWASP/Amass.git
 cd ~/tools/
