@@ -99,11 +99,6 @@ git clone https://github.com/sullo/nikto.git
 cd ~/tools/
 echo "done"
 
-echo "installing dnsgen"
-git clone https://github.com/ProjectAnte/dnsgen.git
-cd ~/tools/
-echo "done"
-
 echo "installing dirsearch"
 git clone https://github.com/maurosoria/dirsearch.git
 cd ~/tools/
