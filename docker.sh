@@ -61,6 +61,16 @@ git clone https://github.com/danielmiessler/SecLists.git
 cd ~/tools/
 echo "done"
 
+echo "installing secretfinder"
+git clone https://github.com/m4ll0k/SecretFinder.git
+cd ~/tools/
+echo "done"
+
+echo "installing favfreak"
+git clone https://github.com/devanshbatham/FavFreak.git
+cd ~/tools/
+echo "done"
+
 echo "installing wafw00f"
 git clone https://github.com/EnableSecurity/wafw00f.git
 cd ~/tools/
@@ -204,6 +214,10 @@ echo "done"
 
 echo "installing nuclei"
 go install github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest 
+echo "done"
+
+echo "installing asnip"
+go install github.com/harleo/asnip@latest
 echo "done"
 
 echo "installing httpx"
