@@ -210,6 +210,10 @@ echo "installing asnip"
 go install github.com/harleo/asnip@latest
 echo "done"
 
+echo "installing getjs"
+go install github.com/003random/getJS@latest
+echo "done"
+
 echo "installing httpx"
 go install github.com/projectdiscovery/httpx/cmd/httpx@latest
 echo "done"
