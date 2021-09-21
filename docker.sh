@@ -66,6 +66,11 @@ git clone https://github.com/devanshbatham/FavFreak.git
 cd ~/tools/
 echo "done"
 
+echo "installing secretfinder"
+git clone https://github.com/m4ll0k/SecretFinder.git
+cd ~/tools/
+echo "done"
+
 echo "installing wafw00f"
 git clone https://github.com/EnableSecurity/wafw00f.git
 cd ~/tools/
