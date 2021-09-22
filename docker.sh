@@ -61,8 +61,8 @@ git clone https://github.com/danielmiessler/SecLists.git
 cd ~/tools/
 echo "done"
 
-echo "installing favfreak"
-git clone https://github.com/devanshbatham/FavFreak.git
+echo "installing favifreak"
+git clone https://github.com/diwusec/favifreak.git
 cd ~/tools/
 echo "done"
 
