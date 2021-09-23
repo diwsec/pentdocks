@@ -1,5 +1,5 @@
 <h1 align="center">pentdocks</h1>
-<h4 align="center">web application pentesting tools for docker</h4>
+<h3 align="center">web application pentesting tools for docker</h3>
 
 <h1 align="center">
   <br>
