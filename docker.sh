@@ -73,20 +73,23 @@ echo "done"
 
 echo "installing amass"
 git clone https://github.com/OWASP/Amass.git
+cd Amass
+go install github.com/OWASP/Amass/v3/...
 cd ~/tools/
-echo "dont forget to run: go install github.com/OWASP/Amass/v3/... "
 echo "done"
 
 echo "installing massdns"
 git clone https://github.com/blechschmidt/massdns.git
+cd massdns
+make
 cd ~/tools/
-echo "make the file to run"
 echo "done"
 
 echo "installing masscan"
 git clone https://github.com/robertdavidgraham/masscan.git
+cd masscan
+make
 cd ~/tools/
-echo "run make"
 echo "done"
 
 echo "installing SQLMAP"
