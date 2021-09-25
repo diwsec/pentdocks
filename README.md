@@ -15,10 +15,10 @@ Usually, people who have one laptop face problems when multitasking. While pente
 
 |                  things which makes it better              | docker  |vmware|
 |------------------------------------------------------------|---|---|
-| fast                                                       | ✔ | X |
-| powerful                                                   | ✔ | ✔ |         
+| fast                                                       | ✔ | ❌ |
+| powerful                                                   | ✔ | ✅ |         
 | easy to use                                                | ✔ | X |
-| stable                                                     | ✔ | ✔ |
+| stable                                                     | ✔ | ✔️ |
 | light weight                                               | ✔ | X |
 | multitasking                                               | ✔ | X |
 | flexible                                                   | ✔ | X |
