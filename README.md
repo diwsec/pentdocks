@@ -16,12 +16,12 @@ Usually, people who have one laptop face problems when multitasking. While pente
 |                  things which makes it better              | docker  |vmware|
 |------------------------------------------------------------|---|---|
 | fast                                                       | ✔ | ❌ |
-| powerful                                                   | ✔ | ✅ |         
-| easy to use                                                | ✔ | X |
-| stable                                                     | ✔ | ✔️ |
-| light weight                                               | ✔ | X |
-| multitasking                                               | ✔ | X |
-| flexible                                                   | ✔ | X |
+| powerful                                                   | ✔ | ✔ |         
+| easy to use                                                | ✔ | ❌ |
+| stable                                                     | ✔ | ✔ |
+| light weight                                               | ✔ | ❌ |
+| multitasking                                               | ✔ | ❌ |
+| flexible                                                   | ✔ | ❌ |
 
 [download and install docker from here](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script).
 > install-using-the-convenience-script to make the installation process simple.
