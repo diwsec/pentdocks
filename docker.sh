@@ -40,6 +40,7 @@ echo "GREAT POWER COMES WITH GREAT RESPONSIBILITY!"
  apt-get install -y apache2
  apt-get install -y vim
  apt-get install -y nmap
+ apt-get install -y golang
  apt-get install -y parallel
  apt-get install -y net-tools
  apt-get install -y iputils-ping
