@@ -44,13 +44,6 @@ echo "GREAT POWER COMES WITH GREAT RESPONSIBILITY!"
  apt-get install -y net-tools
  apt-get install -y iputils-ping
  
-echo "installing docker"
-curl -fsSL https://get.docker.com -o get-docker.sh
-sudo sh get-docker.sh
-echo "installing lazydocker"
-curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
-echo "done"
-
 echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
 echo "moving ./feroxbuster to /usr/local/bin"
