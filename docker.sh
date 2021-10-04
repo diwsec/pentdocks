@@ -11,8 +11,7 @@ echo "GREAT POWER COMES WITH GREAT RESPONSIBILITY!"
  apt-get -y autoclean
  add-apt-repository ppa:longsleep/golang-backports
  add-apt-repository ppa:wireshark-dev/stable
- add-apt-repository ppa:jonathonf/vim
- add-apt-repository ppa:jonathonf/vim-daily
+ sudo add-apt-repository ppa:neovim-ppa/stable
  apt-get -y update
  apt-get -y dist-upgrade
  apt-get -y autoremove
@@ -44,6 +43,13 @@ echo "GREAT POWER COMES WITH GREAT RESPONSIBILITY!"
  apt-get install -y parallel
  apt-get install -y net-tools
  apt-get install -y iputils-ping
+ 
+echo "installing docker"
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+echo "installing lazydocker"
+curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
+echo "done"
 
 echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
