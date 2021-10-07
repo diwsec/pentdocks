@@ -26,13 +26,13 @@ Usually, people who have one laptop face problems when multitasking. While pente
 [download and install docker from here](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script).
 > install-using-the-convenience-script to make the installation process simple.
 
-# installation
+# auto installation
 
 ```
 sudo docker pull diwusec/pentdocks:latest
 ```
 
-## manual
+# manual installation
 
 ```
 sudo docker pull ubuntu:latest
