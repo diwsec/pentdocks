@@ -3,47 +3,47 @@
 echo "docker"
 
 echo "GREAT POWER COMES WITH GREAT RESPONSIBILITY!"
- apt-get install -y software-properties-common
- apt-get install -y dialog apt-utils
- apt-get -y update
- apt-get -y dist-upgrade
- apt-get -y autoremove
- apt-get -y autoclean
- add-apt-repository ppa:longsleep/golang-backports
- add-apt-repository ppa:wireshark-dev/stable
- add-apt-repository ppa:neovim-ppa/stable
- apt-get -y update
- apt-get -y dist-upgrade
- apt-get -y autoremove
- apt-get -y autoclean
- apt-get install -y jq
- apt-get install -y libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev build-essential libgmp-dev zlib1g-dev
- apt-get install -y python3-dnspython
- apt-get install -y libssl-dev libffi-dev python-dev
- apt-get install -y rename
- apt-get install -y ruby-full
- apt-get install -y libpcap-dev
- apt-get install -y htop
- apt-get install -y libldns-dev
- apt-get install -y perl libnet-ssleay-perl openssl libauthen-pam-perl libio-pty-perl
- apt-get install -y python-setuptools
- apt-get install -y build-essential
- apt-get install -y python3-pip
- apt-get install -y python
- apt-get install -y dnsutils
- apt-get install -y curl
- apt-get install -y git
- apt-get install -y gpgv2 autoconf bison postgresql libaprutil1 openssl libpq-dev libreadline6-dev libreadline-dev libsqlite3-dev libssl-dev locate
- apt-get install -y libsvn1 libtool libxslt-dev wget libyaml-dev ncurses-dev postgresql-contrib xsel zlib1g git-core gawk libffi-dev libgdm-dev libncurses5-dev dirmngr python3-magic
- apt-get install -y gcc
- apt-get install -y tree
- apt-get install -y apache2
- apt-get install -y vim
- apt-get install -y nmap
- apt-get install -y golang
- apt-get install -y parallel
- apt-get install -y net-tools
- apt-get install -y iputils-ping
+apt-get install -y software-properties-common
+apt-get install -y dialog apt-utils
+apt-get -y update
+apt-get -y dist-upgrade
+apt-get -y autoremove
+apt-get -y autoclean
+add-apt-repository ppa:longsleep/golang-backports
+add-apt-repository ppa:wireshark-dev/stable
+add-apt-repository ppa:neovim-ppa/stable
+apt-get -y update
+apt-get -y dist-upgrade
+apt-get -y autoremove
+apt-get -y autoclean
+apt-get install -y jq
+apt-get install -y libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev build-essential libgmp-dev zlib1g-dev
+apt-get install -y python3-dnspython
+apt-get install -y libssl-dev libffi-dev python-dev
+apt-get install -y rename
+apt-get install -y ruby-full
+apt-get install -y libpcap-dev
+apt-get install -y htop
+apt-get install -y libldns-dev
+apt-get install -y perl libnet-ssleay-perl openssl libauthen-pam-perl libio-pty-perl
+apt-get install -y python-setuptools
+apt-get install -y build-essential
+apt-get install -y python3-pip
+apt-get install -y python
+apt-get install -y dnsutils
+apt-get install -y curl
+apt-get install -y git
+apt-get install -y gpgv2 autoconf bison postgresql libaprutil1 openssl libpq-dev libreadline6-dev libreadline-dev libsqlite3-dev libssl-dev locate
+apt-get install -y libsvn1 libtool libxslt-dev wget libyaml-dev ncurses-dev postgresql-contrib xsel zlib1g git-core gawk libffi-dev libgdm-dev libncurses5-dev dirmngr python3-magic
+apt-get install -y gcc
+apt-get install -y tree
+apt-get install -y apache2
+apt-get install -y vim
+apt-get install -y nmap
+apt-get install -y golang
+apt-get install -y parallel
+apt-get install -y net-tools
+apt-get install -y iputils-ping
  
 echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
