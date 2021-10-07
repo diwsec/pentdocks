@@ -51,7 +51,7 @@ apt-get install -y golang
 
 Now open `.bashrc` for exporting the following environment variables
  
-type this in terminal(use any editors)
+type this in terminal(downloads and install editor)
 
 ```
 vim ~/.bashrc
