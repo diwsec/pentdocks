@@ -68,12 +68,6 @@ These changes will take effect after a reboot. Instead of restarting, run
 source ~/.bashrc
 ```
 
-If you are not sure which shell you have, then run the command 
-```
-echo $SHELL
-```
-If it displays: `/bin/bash` – means you have Bash
-
 now clone my repo `https://github.com/diwusec/pentdocks.git` and `cd pentdocks` directory to run `bash docker.sh` for installing the tools
 
 after the installation exit from the docker
