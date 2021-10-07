@@ -28,16 +28,14 @@ Usually, people who have one laptop face problems when multitasking. While pente
 
 # installation
 
-> run this to install all tools inbuilt
-
 ```
-sudo docker pull diwusec/pendocks
+sudo docker pull diwusec/pentdocks:latest
 ```
 
 ## manual
 
 ```
-sudo docker pull diwusec/pentdocks:latest
+sudo docker pull ubuntu:latest
 ```
 run the image
 
