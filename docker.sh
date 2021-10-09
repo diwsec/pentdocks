@@ -66,6 +66,11 @@ git clone https://github.com/devanshbatham/FavFreak.git
 cd ~/tools/
 echo "done"
 
+echo "installing subbrute"
+git clone https://github.com/TheRook/subbrute.git
+cd ~/tools/
+echo "done"
+
 echo "installing secretfinder"
 git clone https://github.com/m4ll0k/SecretFinder.git
 cd ~/tools/
@@ -151,10 +156,6 @@ echo "done"
 
 echo "installing gron"
 go install github.com/tomnomnom/gron@latest
-echo "done"
-
-echo "installing shuffledns"
-go install github.com/projectdiscovery/shuffledns/cmd/shuffledns@latest
 echo "done"
 
 echo "installing meg"
