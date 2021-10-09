@@ -149,8 +149,20 @@ echo "installing dnsx"
 go install github.com/projectdiscovery/dnsx/cmd/dnsx@latest
 echo "done"
 
+echo "installing shuffledns"
+go install github.com/projectdiscovery/shuffledns/cmd/shuffledns@latest
+echo "done"
+
 echo "installing gron"
 go install github.com/tomnomnom/gron@latest
+echo "done"
+
+echo "installing asnip"
+go install github.com/harleo/asnip@latest
+echo "done"
+
+echo "installing getjs"
+go install github.com/003random/getJS@latest
 echo "done"
 
 echo "installing meg"
@@ -171,10 +183,6 @@ echo "done"
 
 echo "installing fff"
 go install github.com/tomnomnom/fff@latest
-echo "done"
-
-echo "installing shuffledns"
-go install github.com/projectdiscovery/shuffledns/cmd/shuffledns@latest
 echo "done"
 
 echo "installing httprobe"
@@ -207,14 +215,6 @@ echo "done"
 
 echo "installing nuclei"
 go install github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest 
-echo "done"
-
-echo "installing asnip"
-go install github.com/harleo/asnip@latest
-echo "done"
-
-echo "installing getjs"
-go install github.com/003random/getJS@latest
 echo "done"
 
 echo "installing httpx"
