@@ -33,6 +33,9 @@ Usually, people who have one laptop face problems when multitasking. While pente
 ```
 sudo docker pull diwusec/pentdocks:latest
 ```
+```
+sudo docker run -it --name pentest diwusec/pentdocks /bin/bash
+```
 
 # manual installation
 
@@ -42,7 +45,7 @@ sudo docker pull ubuntu:latest
 run the image
 
 ```
-sudo docker run -it --name pentest image:id /bin/bash
+sudo docker run -it --name pentest ubuntu:latest /bin/bash
 ```
 To run the script in docker, you need some requirements
 ```
