@@ -42,7 +42,7 @@ sudo docker pull ubuntu:latest
 run the image
 
 ```
-sudo docker run -it --name pentest ubuntu:latest /bin/bash
+sudo docker run -it --name pentest image:id /bin/bash
 ```
 To run the script in docker, you need some requirements
 ```
