@@ -149,8 +149,8 @@ echo "installing dnsx"
 go install github.com/projectdiscovery/dnsx/cmd/dnsx@latest
 echo "done"
 
-echo "installing shuffledns"
-go install github.com/projectdiscovery/shuffledns/cmd/shuffledns@latest
+echo "installing gobuster"
+go install github.com/OJ/gobuster/v3@latest
 echo "done"
 
 echo "installing gron"
