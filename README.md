@@ -28,16 +28,7 @@ Usually, people who have one laptop face problems when multitasking. While pente
 
 > or just run `bash setup.sh`
 
-# auto installation
-
-```
-sudo docker pull diwusec/pentdocks:latest
-```
-```
-sudo docker run -it --name pentest diwusec/pentdocks /bin/bash
-```
-
-# manual installation
+# installation
 
 ```
 sudo docker pull ubuntu:latest
