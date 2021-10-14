@@ -10,7 +10,6 @@ apt-get -y dist-upgrade
 apt-get -y autoremove
 apt-get -y autoclean
 add-apt-repository ppa:longsleep/golang-backports
-add-apt-repository ppa:wireshark-dev/stable
 add-apt-repository ppa:neovim-ppa/stable
 apt-get -y update
 apt-get -y dist-upgrade
