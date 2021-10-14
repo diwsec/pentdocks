@@ -31,6 +31,7 @@ apt-get install -y net-tools
 apt-get install -y dnsutils
 apt-get install -y iputils-ping
 apt-get install -y jsbeautifier
+apt-get install -y awscli
 
 echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
