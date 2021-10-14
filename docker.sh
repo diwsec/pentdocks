@@ -14,6 +14,7 @@ apt-get -y dist-upgrade
 apt-get -y autoremove
 apt-get -y autoclean
 apt-get install -y golang
+apt-get install -y neovim
 apt-get install -y curl
 apt-get install -y unzip
 apt-get install -y fontconfig
