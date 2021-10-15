@@ -54,11 +54,6 @@ git clone https://github.com/devanshbatham/FavFreak.git
 cd ~/tools/
 echo "done"
 
-echo "installing secretfinder"
-git clone https://github.com/m4ll0k/SecretFinder.git
-cd ~/tools/
-echo "done"
-
 echo "installing amass"
 git clone https://github.com/OWASP/Amass.git
 cd Amass
