@@ -8,7 +8,7 @@ apt-get -y dist-upgrade
 apt-get -y autoremove
 apt-get -y autoclean
 add-apt-repository ppa:longsleep/golang-backports
-sudo add-apt-repository ppa:neovim-ppa/unstable
+add-apt-repository ppa:neovim-ppa/unstable
 apt-get -y update
 apt-get -y dist-upgrade
 apt-get -y autoremove
