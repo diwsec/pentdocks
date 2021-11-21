@@ -50,6 +50,11 @@ git clone https://github.com/danielmiessler/SecLists.git
 cd ~/tools/
 echo "done"
 
+echo "installing commonspeak2-wordlists"
+git clone https://github.com/assetnote/commonspeak2-wordlists.git
+cd ~/tools/
+echo "done"
+
 echo "installing favifreak"
 git clone https://github.com/devanshbatham/FavFreak.git
 cd ~/tools/
