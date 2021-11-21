@@ -91,6 +91,11 @@ git clone https://github.com/sqlmapproject/sqlmap.git
 cd ~/tools/
 echo "done"
 
+echo "installing xsstrike"
+git clone https://github.com/s0md3v/XSStrike.git
+cd ~/tools/
+echo "done"
+
 echo "installing nikto"
 git clone https://github.com/sullo/nikto.git
 cd ~/tools/
@@ -131,6 +136,11 @@ git clone https://github.com/devanshbatham/ParamSpider.git
 cd ~/tools/
 echo "done"
 
+echo "installing dnsgen"
+git clone https://github.com/ProjectAnte/dnsgen.git
+cd ~/tools/
+echo "done"
+
 echo "installing assetfinder"
 go install github.com/tomnomnom/assetfinder@latest
 echo "done"
@@ -141,6 +151,10 @@ echo "done"
 
 echo "installing dnsx"
 go install github.com/projectdiscovery/dnsx/cmd/dnsx@latest
+echo "done"
+
+echo "installing dalfox"
+go install github.com/hahwul/dalfox/v2@latest
 echo "done"
 
 echo "installing gobuster"
