@@ -65,11 +65,15 @@ These changes will take effect after a reboot. Instead of restarting, run
 source ~/.bashrc
 ```
 
-now clone my repo `https://github.com/diwusec/pentdocks.git` and `cd pentdocks` directory to run `bash docker.sh` for installing the tools
+now clone my repo > `git clone https://github.com/diwusec/pentdocks.git`
+
+change directory > `cd pentdocks`
+
+run the install.sh > `bash install.sh`
 
 after the installation exit from the docker
 
-> to start the docker again run the container not the image
+> to start the docker again, run the container not the image
 
 ```
 sudo docker exec -it pentest /bin/bash
