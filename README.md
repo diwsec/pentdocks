@@ -65,11 +65,7 @@ These changes will take effect after a reboot. Instead of restarting, run
 source ~/.bashrc
 ```
 
-now clone my repo > `git clone https://github.com/diwusec/pentdocks.git`
-
-change directory > `cd pentdocks`
-
-run the install.sh > `bash install.sh`
+now clone my repo > `git clone https://github.com/diwusec/pentdocks.git` change directory `cd pentdocks` and run `bash install.sh` to install the tools
 
 after the installation exit from the docker
 
