@@ -69,7 +69,7 @@ now clone my repo > `git clone https://github.com/diwusec/pentdocks.git` change 
 
 after the installation exit from the docker
 
-> to start the docker again, run the container not the image
+## to start the docker again, run the container not the image
 
 ```
 sudo docker exec -it pentest /bin/bash
