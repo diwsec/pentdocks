@@ -46,13 +46,9 @@ apt-get -y update && apt-get -y dist-upgrade && apt-get -y autoremove && apt-get
 apt-get install -y git
 ```
 
-```
-apt-get install -y golang
-```
-
 Now open `.bashrc` for exporting the following environment variables
  
-type this in terminal(downloads and install editor)
+type this in terminal(download and install a editor)
 
 ```
 vim ~/.bashrc
