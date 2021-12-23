@@ -215,6 +215,10 @@ echo "installing waybackurls"
 go install github.com/tomnomnom/waybackurls@latest
 echo "done"
 
+echo "installing interactsh-client" 
+go install -v github.com/projectdiscovery/interactsh/cmd/interactsh-client@latest
+echo "done"
+
 echo "installing ffuf"
 go install github.com/ffuf/ffuf@latest
 echo "done"
