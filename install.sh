@@ -199,6 +199,10 @@ echo "installing subjs"
 go install github.com/lc/subjs@latest
 echo "done"
 
+echo "installing headi"
+go install github.com/mlcsec/headi@latest
+echo "done"
+
 echo "installing fff"
 go install github.com/tomnomnom/fff@latest
 echo "done"
