@@ -101,6 +101,11 @@ git clone https://github.com/s0md3v/XSStrike.git
 cd ~/tools/
 echo "done"
 
+echo "installing corstest"
+git clone https://github.com/RUB-NDS/CORStest.git
+cd ~/tools/
+echo "done"
+
 echo "installing nikto"
 git clone https://github.com/sullo/nikto.git
 cd ~/tools/
@@ -164,6 +169,10 @@ echo "done"
 
 echo "installing gron"
 go install github.com/tomnomnom/gron@latest
+echo "done"
+
+echo "installing  crlfuzz"
+GO111MODULE=on go install github.com/dwisiswant0/crlfuzz/cmd/crlfuzz@latest
 echo "done"
 
 echo "installing asnip"
