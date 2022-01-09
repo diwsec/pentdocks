@@ -24,9 +24,9 @@ Usually, people who have one laptop face problems when multitasking. While pente
 | flexible                                                   | ✔ | ❌ |
 
 [download and install docker from here](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script).
-> install-using-the-convenience-script to make the installation process simple.
+> install-using-the-convenience-script to install.
 
-> or just run `bash setup.sh`
+> or just run `bash setup.sh` to make the installation process simple.
 
 # installation
 
