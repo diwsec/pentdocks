@@ -171,6 +171,10 @@ echo "installing gron"
 go install github.com/tomnomnom/gron@latest
 echo "done"
 
+echo "installing gotop"
+go install github.com/xxxserxxx/gotop/v4/cmd/gotop@latest
+echo "done"
+
 echo "installing  crlfuzz"
 GO111MODULE=on go install github.com/dwisiswant0/crlfuzz/cmd/crlfuzz@latest
 echo "done"
