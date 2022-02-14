@@ -1,5 +1,17 @@
 #!/bin/bash
 
+clear
+
+echo '#######################################################################'
+echo '#                          HACKING Setup                              #'
+echo '#######################################################################'
+echo
+
+echo '#######################################################################'
+echo '#           GREAT POWER COMES WITH GREAT RESPONSIBILITY!              #'
+echo '#######################################################################'
+echo
+
 echo "GREAT POWER COMES WITH GREAT RESPONSIBILITY!"
 apt-get install -y software-properties-common
 apt-get install -y dialog apt-utils
