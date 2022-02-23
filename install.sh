@@ -271,7 +271,7 @@ go install github.com/tomnomnom/gf@latest
 echo "done installing gf, now adding the patterns"
 
 echo -e "Gf patterns"
-cp -r $GOPATH/pkg/mod/github.com/tomnomnom/gf@v0.0.0-20200618134122-dcd4c361f9f5/examples ~/.gf
+cp -r ~/go/pkg/mod/github.com/tomnomnom/gf@v0.0.0-20200618134122-dcd4c361f9f5/examples ~/.gf
 echo "installing GF patterns"
 cd ~
 git clone https://github.com/1ndianl33t/Gf-Patterns.git
