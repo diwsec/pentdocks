@@ -123,11 +123,6 @@ git clone https://github.com/sullo/nikto.git
 cd ~/tools/
 echo "done"
 
-echo "installing dirsearch"
-git clone https://github.com/maurosoria/dirsearch.git
-cd ~/tools/
-echo "done"
-
 echo "installing Linkfinder"
 git clone https://github.com/GerbenJavado/LinkFinder.git
 cd ~/tools/
