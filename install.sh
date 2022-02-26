@@ -21,6 +21,7 @@ apt-get -y autoremove
 apt-get -y autoclean
 add-apt-repository ppa:longsleep/golang-backports
 add-apt-repository ppa:neovim-ppa/unstable
+add-apt-repository ppa:bashtop-monitor/bashtop
 apt-get -y update
 apt-get -y dist-upgrade
 apt-get -y autoremove
@@ -39,6 +40,7 @@ apt-get install -y build-essential
 apt-get install -y gcc
 apt-get install -y tree
 apt-get install -y nmap
+apt-get install -y bashtop
 apt-get install -y net-tools
 apt-get install -y dnsutils
 apt-get install -y iputils-ping
@@ -176,10 +178,6 @@ echo "done"
 
 echo "installing gron"
 go install github.com/tomnomnom/gron@latest
-echo "done"
-
-echo "installing gotop"
-go install github.com/xxxserxxx/gotop/v4/cmd/gotop@latest
 echo "done"
 
 echo "installing  crlfuzz"
