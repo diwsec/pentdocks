@@ -100,6 +100,16 @@ git clone https://github.com/zricethezav/gitleaks.git
 cd ~/tools/
 echo "done"
 
+echo "installing breacher"
+git clone https://github.com/s0md3v/Breacher.git
+cd ~/tools/
+echo "done"
+
+echo "installing parth"
+git clone https://github.com/s0md3v/Parth.git
+cd ~/tools/
+echo "done"
+
 echo "installing trufflehog"
 git clone https://github.com/trufflesecurity/truffleHog.git
 cd ~/tools/
