@@ -110,6 +110,11 @@ git clone https://github.com/sqlmapproject/sqlmap.git
 cd ~/tools/
 echo "done"
 
+echo "installing dontgo403"
+git clone https://github.com/devploit/dontgo403.git
+cd ~/tools/
+echo "done"
+
 echo "installing xsstrike"
 git clone https://github.com/s0md3v/XSStrike.git
 cd ~/tools/
