@@ -34,7 +34,6 @@ apt-get install -y fontconfig
 apt-get install -y python3
 apt-get install -y python3-pip
 apt-get install -y libpcap-dev
-apt-get install -y htop
 apt-get install -y wget
 apt-get install -y build-essential
 apt-get install -y gcc
