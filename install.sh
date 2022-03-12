@@ -144,6 +144,11 @@ git clone https://github.com/GerbenJavado/LinkFinder.git
 cd ~/tools/
 echo "done"
 
+echo "installing secretx"
+git clone https://github.com/harry1080/secretx.git
+cd ~/tools/
+echo "done"
+
 echo "installing noslqi"
 git clone https://github.com/Charlie-belmer/nosqli.git
 cd ~/tools/
