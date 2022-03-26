@@ -149,6 +149,11 @@ git clone https://github.com/harry1080/secretx.git
 cd ~/tools/
 echo "done"
 
+echo "installing gopherus"
+https://github.com/tarunkant/Gopherus.git
+cd ~/tools/
+echo "done"
+
 echo "installing noslqi"
 git clone https://github.com/Charlie-belmer/nosqli.git
 cd ~/tools/
