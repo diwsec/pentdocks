@@ -48,10 +48,6 @@ apt-get install -y iputils-ping
 apt-get install -y jsbeautifier
 apt-get install -y awscli
 
-echo "installing censys"
-pip intsall censys
-echo "done"
-
 echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
 echo "moving ./feroxbuster to /usr/local/bin"
