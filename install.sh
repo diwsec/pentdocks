@@ -3,7 +3,7 @@
 clear
 
 echo '#######################################################################'
-echo '#                          HACKING Setup                              #'
+echo '#                      Web Pentesting Setup                           #'
 echo '#######################################################################'
 echo
 
@@ -217,6 +217,10 @@ echo "done"
 
 echo "installing hakrawler"
 go install github.com/hakluke/hakrawler@latest
+echo "done"
+
+echo "installing hakrevdns"
+go install github.com/hakluke/hakrevdns@latest
 echo "done"
 
 echo "installing gospider"
