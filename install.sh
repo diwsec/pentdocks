@@ -38,6 +38,7 @@ apt-get install -y wget
 apt-get install -y build-essential
 apt-get install -y gcc
 apt-get install -y tree
+apt-get install -y prips
 apt-get install -y nmap
 apt-get install -y bashtop
 apt-get install -y net-tools
