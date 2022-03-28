@@ -42,6 +42,7 @@ apt-get install -y prips
 apt-get install -y nmap
 apt-get install -y bashtop
 apt-get install -y net-tools
+apt-get install -y jq
 apt-get install -y dnsutils
 apt-get install -y iputils-ping
 apt-get install -y jsbeautifier
