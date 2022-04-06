@@ -165,11 +165,6 @@ git clone https://github.com/chenjj/CORScanner.git
 cd ~/tools/
 echo "done"
 
-echo "installing Eyewitness"
-git clone https://github.com/FortyNorthSecurity/EyeWitness.git
-cd ~/tools/
-echo "done"
-
 echo "installing paramspider"
 git clone https://github.com/devanshbatham/ParamSpider.git
 cd ~/tools/
