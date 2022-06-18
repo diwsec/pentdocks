@@ -20,8 +20,7 @@ apt-get -y dist-upgrade
 apt-get -y autoremove
 apt-get -y autoclean
 add-apt-repository ppa:longsleep/golang-backports
-add-apt-repository ppa:neovim-ppa/unstable
-add-apt-repository ppa:bashtop-monitor/bashtop
+add-apt-repository ppa:neovim-ppa/stable
 apt-get -y update
 apt-get -y dist-upgrade
 apt-get -y autoremove
