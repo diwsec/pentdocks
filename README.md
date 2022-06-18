@@ -3,7 +3,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://github.com/diwusec/pentdocks"><img src="https://img.wonderhowto.com/img/86/00/63617929688035/0/create-reusable-burner-os-with-docker-part-2-customizing-our-hacking-container.1280x600.jpg" alt="pentdocks"></a>
+  <a href="https://github.com/diwsec/pentdocks"><img src="https://img.wonderhowto.com/img/86/00/63617929688035/0/create-reusable-burner-os-with-docker-part-2-customizing-our-hacking-container.1280x600.jpg" alt="pentdocks"></a>
   <br>
 </h1>
 
@@ -65,7 +65,7 @@ These changes will take effect after a reboot. Instead of restarting, run
 source ~/.bashrc
 ```
 
-now clone my repo > `git clone https://github.com/diwusec/pentdocks.git` change directory `cd pentdocks` and run `bash install.sh` to install the tools
+now clone my repo > `git clone https://github.com/diwsec/pentdocks.git` change directory `cd pentdocks` and run `bash install.sh` to install the tools
 
 after the installation exit from the docker
 
