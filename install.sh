@@ -50,7 +50,7 @@ apt-get install -y awscli
 echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
 echo "moving ./feroxbuster to /usr/local/bin"
- mv feroxbuster /usr/local/bin
+sudo mv feroxbuster /usr/local/bin
 echo "done"
 
 echo "creating a tools folder in ~/"
@@ -60,16 +60,6 @@ echo "done"
 
 echo "installing seclists"
 git clone https://github.com/danielmiessler/SecLists.git
-cd ~/tools/
-echo "done"
-
-echo "installing commonspeak2-wordlists"
-git clone https://github.com/assetnote/commonspeak2-wordlists.git
-cd ~/tools/
-echo "done"
-
-echo "installing favifreak"
-git clone https://github.com/devanshbatham/FavFreak.git
 cd ~/tools/
 echo "done"
 
@@ -94,26 +84,6 @@ make
 cd ~/tools/
 echo "done"
 
-echo "installing gitleaks"
-git clone https://github.com/zricethezav/gitleaks.git
-cd ~/tools/
-echo "done"
-
-echo "installing breacher"
-git clone https://github.com/s0md3v/Breacher.git
-cd ~/tools/
-echo "done"
-
-echo "installing parth"
-git clone https://github.com/s0md3v/Parth.git
-cd ~/tools/
-echo "done"
-
-echo "installing trufflehog"
-git clone https://github.com/trufflesecurity/truffleHog.git
-cd ~/tools/
-echo "done"
-
 echo "installing SQLMAP"
 git clone https://github.com/sqlmapproject/sqlmap.git
 cd ~/tools/
@@ -124,13 +94,13 @@ git clone https://github.com/devploit/dontgo403.git
 cd ~/tools/
 echo "done"
 
-echo "installing xsstrike"
-git clone https://github.com/s0md3v/XSStrike.git
+echo "installing parth"
+git clone https://github.com/s0md3v/Parth.git
 cd ~/tools/
 echo "done"
 
-echo "installing corstest"
-git clone https://github.com/RUB-NDS/CORStest.git
+echo "installing xsstrike"
+git clone https://github.com/s0md3v/XSStrike.git
 cd ~/tools/
 echo "done"
 
@@ -149,11 +119,6 @@ git clone https://github.com/GerbenJavado/LinkFinder.git
 cd ~/tools/
 echo "done"
 
-echo "installing secretx"
-git clone https://github.com/harry1080/secretx.git
-cd ~/tools/
-echo "done"
-
 echo "installing noslqi"
 git clone https://github.com/Charlie-belmer/nosqli.git
 cd ~/tools/
@@ -164,8 +129,18 @@ git clone https://github.com/s0md3v/Arjun.git
 cd ~/tools/
 echo "done"
 
+echo "installing corstest"
+git clone https://github.com/RUB-NDS/CORStest.git
+cd ~/tools/
+echo "done"
+
 echo "installing corscanner"
 git clone https://github.com/chenjj/CORScanner.git
+cd ~/tools/
+echo "done"
+
+echo "installing Eyewitness"
+git clone https://github.com/FortyNorthSecurity/EyeWitness.git
 cd ~/tools/
 echo "done"
 
@@ -174,8 +149,38 @@ git clone https://github.com/devanshbatham/ParamSpider.git
 cd ~/tools/
 echo "done"
 
+echo "installing openredirex"
+git clone https://github.com/devanshbatham/OpenRedireX.git
+cd ~/tools/
+echo "done"
+
+echo "installing match and replace"
+git clone https://github.com/Leoid/MatchandReplace.git
+cd ~/tools/
+echo "done"
+
+echo "installing gitleaks"
+git clone https://github.com/zricethezav/gitleaks.git
+cd ~/tools/
+echo "done"
+
+echo "installing trufflehog"
+git clone https://github.com/trufflesecurity/truffleHog.git
+cd ~/tools/
+echo "done"
+
 echo "installing dnsgen"
 git clone https://github.com/ProjectAnte/dnsgen.git
+cd ~/tools/
+echo "done"
+
+echo "installing smuggler"
+git clone https://github.com/defparam/smuggler.git
+cd ~/tools/
+echo "done"
+
+echo "installing golinkfinder"
+git clone https://github.com/0xsha/GoLinkFinder.git
 cd ~/tools/
 echo "done"
 
@@ -187,8 +192,8 @@ echo "installing dnsx"
 go install github.com/projectdiscovery/dnsx/cmd/dnsx@latest
 echo "done"
 
-echo "installing dalfox"
-go install github.com/hahwul/dalfox/v2@latest
+echo "installing headi"
+go install github.com/mlcsec/headi@latest
 echo "done"
 
 echo "installing gobuster"
@@ -199,16 +204,16 @@ echo "installing gron"
 go install github.com/tomnomnom/gron@latest
 echo "done"
 
-echo "installing  crlfuzz"
-GO111MODULE=on go install github.com/dwisiswant0/crlfuzz/cmd/crlfuzz@latest
-echo "done"
-
 echo "installing asnip"
 go install github.com/harleo/asnip@latest
 echo "done"
 
 echo "installing getjs"
 go install github.com/003random/getJS@latest
+echo "done"
+
+echo "installing hakrevdns"
+go install github.com/hakluke/hakrevdns@latest
 echo "done"
 
 echo "installing meg"
@@ -219,44 +224,40 @@ echo "installing hakrawler"
 go install github.com/hakluke/hakrawler@latest
 echo "done"
 
-echo "installing hakrevdns"
-go install github.com/hakluke/hakrevdns@latest
+echo "installing crlfuzz"
+GO111MODULE=on go install github.com/dwisiswant0/crlfuzz/cmd/crlfuzz@latest
 echo "done"
 
 echo "installing gospider"
 go install github.com/jaeles-project/gospider@latest
 echo "done"
 
-echo "installing subjs"
-go install github.com/lc/subjs@latest
-echo "done"
-
-echo "installing headi"
-go install github.com/mlcsec/headi@latest
+echo "installing gowitness"
+go install github.com/sensepost/gowitness@latest
 echo "done"
 
 echo "installing fff"
 go install github.com/tomnomnom/fff@latest
 echo "done"
 
-echo "installing httprobe"
-go install github.com/tomnomnom/httprobe@latest 
-echo "done"
-
 echo "installing unfurl"
 go install github.com/tomnomnom/unfurl@latest 
-echo "done"
-
-echo "installing waybackurls"
-go install github.com/tomnomnom/waybackurls@latest
 echo "done"
 
 echo "installing interactsh-client" 
 go install -v github.com/projectdiscovery/interactsh/cmd/interactsh-client@latest
 echo "done"
 
+echo "installing waybackurls"
+go install github.com/tomnomnom/waybackurls@latest
+echo "done"
+
 echo "installing ffuf"
 go install github.com/ffuf/ffuf@latest
+echo "done"
+
+echo "installing dalfox"
+go install github.com/hahwul/dalfox/v2@latest
 echo "done"
 
 echo "installing naabu"
@@ -277,6 +278,10 @@ echo "done"
 
 echo "installing httpx"
 go install github.com/projectdiscovery/httpx/cmd/httpx@latest
+echo "done"
+
+echo "installing httprobe"
+go install github.com/tomnomnom/httprobe@latest
 echo "done"
 
 echo "installing qsreplace"
