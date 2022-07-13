@@ -50,7 +50,7 @@ apt-get install -y awscli
 echo "installing feroxbuster"
 curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
 echo "moving ./feroxbuster to /usr/local/bin"
-sudo mv feroxbuster /usr/local/bin
+mv feroxbuster /usr/local/bin
 echo "done"
 
 echo "creating a tools folder in ~/"
@@ -225,7 +225,7 @@ go install github.com/hakluke/hakrawler@latest
 echo "done"
 
 echo "installing crlfuzz"
-GO111MODULE=on go install github.com/dwisiswant0/crlfuzz/cmd/crlfuzz@latest
+go install github.com/dwisiswant0/crlfuzz/cmd/crlfuzz@latest
 echo "done"
 
 echo "installing gospider"
