@@ -179,11 +179,6 @@ git clone https://github.com/defparam/smuggler.git
 cd ~/tools/
 echo "done"
 
-echo "installing golinkfinder"
-git clone https://github.com/0xsha/GoLinkFinder.git
-cd ~/tools/
-echo "done"
-
 echo "installing proxify"
 go install github.com/projectdiscovery/proxify/cmd/proxify@latest
 echo "done"
