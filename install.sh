@@ -104,11 +104,6 @@ git clone https://github.com/s0md3v/XSStrike.git
 cd ~/tools/
 echo "done"
 
-echo "installing wad"
-git clone https://github.com/CERN-CERT/WAD.git
-cd ~/tools/
-echo "done"
-
 echo "installing nikto"
 git clone https://github.com/sullo/nikto.git
 cd ~/tools/
