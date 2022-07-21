@@ -149,11 +149,6 @@ git clone https://github.com/devanshbatham/ParamSpider.git
 cd ~/tools/
 echo "done"
 
-echo "installing openredirex"
-git clone https://github.com/devanshbatham/OpenRedireX.git
-cd ~/tools/
-echo "done"
-
 echo "installing match and replace"
 git clone https://github.com/Leoid/MatchandReplace.git
 cd ~/tools/
@@ -166,11 +161,6 @@ echo "done"
 
 echo "installing trufflehog"
 git clone https://github.com/trufflesecurity/truffleHog.git
-cd ~/tools/
-echo "done"
-
-echo "installing dnsgen"
-git clone https://github.com/ProjectAnte/dnsgen.git
 cd ~/tools/
 echo "done"
 
