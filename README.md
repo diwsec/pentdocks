@@ -77,4 +77,11 @@ sudo docker start pentest
 ```
 sudo docker exec -it pentest /bin/bash
 ```
+## for managing docker easy use `lazydocker`
+## for more information about `lazydocker` check [here](https://github.com/jesseduffield/lazydocker.git).
+
+```
+sudo lazydocker
+```
+
 # happy hacking!
